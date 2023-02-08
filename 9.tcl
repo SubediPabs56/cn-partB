@@ -56,7 +56,8 @@ $node_(3) set Z_ 0.0
 $node_(4) set X_ 500.0
 $node_(4) set Y_ 100.0
 $node_(4) set Z_ 0.0
-$node_(5) set X_ 650.0$node_(5) set Y_ 300.0
+$node_(5) set X_ 650.0
+$node_(5) set Y_ 300.0
 $node_(5) set Z_ 0.0
 for {set i 0} {$i < $val(nn)} {incr i} {
 $ns_ initial_node_pos $node_($i) 40
